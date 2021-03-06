@@ -1,0 +1,184 @@
+.primary-overlay {
+  background:rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.slider img {
+  opacity: 0.4;
+}
+
+.btn:hover:before, .green-btn:hover:before{
+  opacity:1;
+}
+
+.btn:before, .green-btn:before{
+    content: '';
+    opacity: 0;
+    background-color: rgba(77, 182, 172, 1);
+    /* background-color: rgba(76, 175, 80, 1); */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: opacity .2s;
+    z-index: -1;
+}
+nav {
+  background-color: #fff;
+  z-index: 1000;
+}
+.main-consult {
+  margin-top: 2em;
+}
+
+.brand-logo img {
+  height: 64px;
+}
+
+.active-link {
+  color: #D847F1;
+  font-weight: bold;
+}
+
+.showcase.container {
+  z-index: 100;
+  padding-top: 100px;
+  
+}
+
+.section-about .fas {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 50%;
+
+}
+
+/* .section-about {
+  background: url(../img/showcase.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  max-width: 100vw;
+  color: #fff;
+  opacity: 0.9;
+  z-index: 1;
+} */
+.section-about {
+  margin-bottom: 0;
+  overflow: auto;
+}
+
+.section-about .fas{
+  color: #00bfa5 !important;
+}
+
+.section-about h3 {
+  color: #130B47;
+}
+
+.section-lead {
+  font-style: italic;
+  margin-top:0;
+  padding-top: 0;
+  overflow: auto;
+  padding:0;
+  margin: 0;
+}
+
+.section-lead h5 {
+  margin-top: 2em;
+
+}
+
+.section-lead .btn {
+  border: 1px solid #fff;
+  margin-bottom: 2em;
+  font-style: normal;
+}
+
+
+
+.section-testimonials {
+  padding: 0.5em 0;
+}
+
+
+.carousel .indicators .indicator-item {
+  height: 10px !important;
+  width: 10px !important;
+  background-color: rgba(238, 225, 237, 0.5) !important;
+}
+
+
+.carousel .indicators .indicator-item.active {
+  background-color: rgb(178, 223, 219) !important;
+}
+
+.contact-info {
+  background-color: #e8f5e9 !important;
+}
+.contact-header {
+  font-weight: bold;
+}
+
+.section-specialities {
+  padding: 0;
+  margin: 0;
+}
+
+footer .small-i {
+  margin-right: 0.5em;
+}
+
+footer .hidden-i {
+  visibility: hidden;
+}
+
+.footer-logo img{
+  width: 75px;
+  height: auto;
+}
+
+.logo-3 img {
+  width: 150px;
+  height: auto;
+  margin-top: 1em;
+}
+
+.logo-4 {
+  margin-top: 2em;
+}
+
+.all-footer-logos {
+  margin-top: 3em;
+}
+
+.footer-address {
+  font-size: 1.25em;
+}
+
+@media(min-width: 993px) and (max-width: 1249px){
+  .nav-left {
+    position: fixed !important;
+    left: 30px !important;
+  }
+  .nav-right  {
+    position: fixed !important;
+    right: 30px !important;
+  
+  }
+}
+
+@media(max-width: 601px) {
+  .brand-logo img {
+    height: 55px;
+  }
+
+}

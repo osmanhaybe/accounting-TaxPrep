@@ -1,0 +1,36 @@
+
+body {
+  font-size: 1.25em;
+}
+
+.business-container {
+  background: url(../img/business.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 500px;
+  max-width: 100vw;
+  color: #fff;
+  opacity: 0.95;
+  z-index: 1;
+}
+
+.business-container h1 {
+  z-index: 10000;
+  margin-top: 3.5em;
+}
+
+.section-business-info li {
+  list-style-type: circle !important;
+  margin-left: 2em;
+}
+
+.divider {
+  margin: 2em 0;
+}
+.bold{
+  font-style: bold !important;
+}
+
+footer {
+  font-size: 0.8em;
+}
