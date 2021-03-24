@@ -336,24 +336,26 @@
               </ul>
             </div>
             <div class="col s12 m6">
-              <div class="card-panel teal lighten-5 scrollspy" id="contact-form">
-                <h5>Request a Free Consultation</h5>
-                <div class="input-field">
-                  <input type="text" placeholder="Name" id=
-                  "name">
-                </div>
-                <div class="input-field">
-                  <input type="email" placeholder="Email" id=
-                  "name">
-                </div>
-                <div class="input-field">
-                  <input type="text" placeholder="Phone" id=
-                  "name">
-                </div>
-                <div class="input-field">
-                  <textarea class="materialize-textarea" placeholder="Enter Message"></textarea>
-                </div>
-                <input type="submit" value="Submit" class="btn teal-btn">
+              <div  class="card-panel teal lighten-5 scrollspy" id="contact-form">
+                <form action="https://formspree.io/f/mjvjbyde" method="POST">
+                  <h5>Request a Free Consultation</h5>
+                  <div class="input-field">
+                    <input name="name" type="text" placeholder="Name" id=
+                    "name" >
+                  </div>
+                  <div class="input-field">
+                    <input name="_replyto" type="email" placeholder="Email" id=
+                    "name">
+                  </div>
+                  <div class="input-field">
+                    <input name="phone" type="text" placeholder="Phone" id=
+                    "name">
+                  </div>
+                  <div class="input-field">
+                    <textarea name="message" class="materialize-textarea" placeholder="Enter Message"></textarea>
+                  </div>
+                  <input type="submit" value="submit" class="btn teal-btn">
+                </form>
               </div>
             </div>
           </div>
