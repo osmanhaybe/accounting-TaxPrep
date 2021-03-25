@@ -149,7 +149,9 @@ nav {
   padding: 0;
   margin: 0;
 }
-
+footer {
+  padding-left: 5em;
+}
 footer .small-i {
   margin-right: 0.5em;
 }
@@ -197,5 +199,38 @@ footer .hidden-i {
   .brand-logo img {
     height: 55px;
   }
+  .carousel p {
+    font-size: 1.2em !important;
+  }
+  footer {
+    padding-left: 2.5em;
+  }
+  .footer-address {
+    font-size: 1em;
+  }
+}
 
+@media(max-width: 375px) {
+  body {
+    font-size: 13px !important;
+  }
+
+  .section-specialities h1 {
+    font-size: 4em !important;
+  }
+}
+
+
+@media(max-width: 300px) {
+  body {
+    font-size: 10px !important;
+  }
+
+  .section-specialities h1 {
+    font-size: 4.5em !important;
+  }
+
+  footer {
+    padding-left: 0;
+  }
 }
