@@ -84,6 +84,12 @@ nav {
   padding: 15px;
   border: 2px solid #00bfa5;
 }
+
+.section-specialities h4 {
+  font-style: bold !important;
+  color: #00796b !important;
+
+}
 .section-about h3 {
   color: #130B47;
 }
