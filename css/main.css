@@ -75,10 +75,15 @@ nav {
   overflow: auto;
 }
 
-.section-about .fas{
+.section-about .fas, .section-specialities .fas{
   color: #00bfa5 !important;
 }
 
+.section-specialities .fas{
+  border-radius: 50%;
+  padding: 15px;
+  border: 2px solid #00bfa5;
+}
 .section-about h3 {
   color: #130B47;
 }
