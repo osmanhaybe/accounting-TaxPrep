@@ -8,7 +8,36 @@
   overflow: hidden;
 
 }
+input::-webkit-input-placeholder {
+  color: #000 !important;
+  }
+   
+input:-moz-placeholder { /* Firefox 18- */
+  color: #000 !important;  
+}
+   
+input::-moz-placeholder {  /* Firefox 19+ */
+  color: #000 !important;  
+}
 
+input:-ms-input-placeholder {  
+  color: #000 !important;  
+}
+textarea::-webkit-input-placeholder {
+  color: #000 !important;
+}
+  
+textarea:-moz-placeholder { /* Firefox 18- */
+  color: #000 !important;  
+}
+  
+textarea::-moz-placeholder {  /* Firefox 19+ */
+  color: #000 !important;  
+}
+  
+textarea:-ms-input-placeholder {  
+  color: #000 !important;  
+}
 .slider img {
   opacity: 0.4;
 }
